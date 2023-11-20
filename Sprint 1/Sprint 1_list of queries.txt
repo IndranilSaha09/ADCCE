@@ -25,9 +25,7 @@ give offers to open service requests (IT services)."
 	 g)  "User wants to make suggestions based on the knowledge of each offered employee." - what specific knowledge? When we say employees - is it employees of the company "future-X"?
 		- knowledge like whether the employee has the time to be fit into another project, right fit for the profile, etc. Employees mean employees of the provider.
 
-	 h) "Further specification takes place during collaboration with the customer." - what kind of specification?
-		- query
-	 i) "APIs need to be provided to other groups." -a) With which group do we need to collab with? b)To which groups do we need to provide the APIs?
+	 h) "APIs need to be provided to other groups." -a) With which group do we need to collab with? b)To which groups do we need to provide the APIs?
 		- In most of the cases, we will be consuming the APIs. From group 2b), we need to have APIs for the master agreement, provider information.
 		  After a bid & when the bid is accepted, information for the provider has to be provided via API. 
 
