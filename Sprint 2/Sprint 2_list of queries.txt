@@ -1,0 +1,5 @@
+Understanding:
+--------------
+1. Once logged in, system will automatically treat you as an admin or as a user
+
+
