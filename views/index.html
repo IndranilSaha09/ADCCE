@@ -1,0 +1,78 @@
+
+<div class="container">
+  <h1 class="text-center top-buffer">Access Management Platform </h1>
+  <h2 class="text-center top-buffer">User Registration</h2>
+  <form class="form-horizontal" role="form" method="post">
+    <div class="form-group">
+      <div class="alert alert-danger" role="alert" id="msgDiv"></div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="firstname"> <strong>Full Name</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="firstname" type="text" name="firstname" placeholder="First Name" autofocus="" value=""/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="lastname"> <strong>Last Name</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="lastname" type="text" name="lastname" placeholder="Last Name" autofocus="" value=""/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="username"> <strong>User Name</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="username" type="text" name="username" placeholder="User Name" autofocus="" value=""/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="email"> <strong>Email</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="email" type="email" name="email" placeholder="Email"/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="mobile"> <strong>Mobile</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="mobile" type="text" name="mobile" placeholder="Mobile"/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="password"> <strong>Password</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="password" type="password" name="password" placeholder="Password"/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="cpassword"> <strong>Confirm Password</strong></label>
+      <div class="col-sm-9">
+        <input class="form-control" id="cpassword" type="password" name="cpassword" placeholder="Confirm password"/>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <label class="col-sm-3 control-label" for="provider"> <strong>Providers</strong></label>
+      <div class="col-sm-9">
+        <select class="form-control" id="provider" name="provider">
+          <option value="">Please Select</option>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+        </select>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <div class="col-sm-9 col-sm-offset-3">
+        <div class="checkbox">
+          <label>
+            <input id="terms" type="checkbox" value="yes" name="terms"/>&nbsp;I accept <a href="#">terms</a>
+          </label>
+        </div>
+      </div>
+    </div><br/>
+    <div class="form-group">
+      <div class="col-sm-9 col-sm-offset-3">
+        <button class="btn btn-primary btn-block" id="register" type="submit">Register</button>
+      </div>
+    </div>
+  </form>
+</div>
