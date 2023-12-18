@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Management Platform</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center top-buffer">Access Management Platform</h1>
+    <h2 class="text-center top-buffer">Agreement Details</h2>
+    <form class="form-horizontal" role="form" method="post">
+      <div class="form-group">
+        <div class="alert alert-danger" role="alert" id="msgDiv"></div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-6 control-label" for="offerid">
+          <strong>AgreementID</strong>
+        </label>
+        <div class="col-sm-9">
+          <input id="offerid" class="form-control" type="text" autofocus="" readonly="" value="{{AgreementDetails.offerid}}">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-6 control-label" for="name">
+          <strong>Agreement Name</strong>
+        </label>
+        <div class="col-sm-9">
+          <input id="name" class="form-control" type="text" autofocus="" readonly="" value="{{AgreementDetails.name}}">
+        </div>
+      </div>
+      <!-- ... (Repeat the structure for other form groups) ... -->
+      <br>
+      <div class="form-group">
+        <div class="col-sm-9 col-sm-offset-3">
+          <button id="acceptagreements" class="btn btn-primary" type="button">Accept</button>
+        </div>
+      </div>
+      <br>
+      <div class="form-group">
+        <div class="col-sm-9 col-sm-offset-3">
+          <button id="rejectagreements" class="btn btn-primary" type="button">Reject</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
