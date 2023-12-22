@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Management Platform</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center top-buffer">Access Management Platform</h1>
+        <h2 class="text-center top-buffer">Offer this employee</h2>
+        <form class="form-horizontal" role="form" method="post">
+            <div class="form-group">
+                <div class="alert alert-danger" role="alert" id="msgDiv"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-6 control-label" for="EmployeeID">
+                    <strong>employeeid</strong>
+                </label>
+                <div class="col-sm-9">
+                    <input id="employeeid" class="form-control" type="text" placeholder="" autofocus=""
+                        value="<%= offerEmployeeDetails.employee_id %>">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-6 control-label" for="positionid">
+                    <strong>positionid</strong>
+                </label>
+                <div class="col-sm-9">
+                    <input id="positionid" class="form-control" type="text" placeholder="Provider Name" autofocus=""
+                        value="<%= offerEmployeeDetails.positionid %>">
+                </div>
+            </div>
+            <!-- Repeat the above structure for the remaining form fields -->
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button id="submitoffer" class="btn btn-primary btn-block" type="e">submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
