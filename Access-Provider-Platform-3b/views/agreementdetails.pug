@@ -1,0 +1,72 @@
+extends layout
+
+block content
+   .container
+      h1.text-center.top-buffer Access Management Platform 
+      h2.text-center.top-buffer Agreement Details
+      form.form-horizontal(role="form", method="post")
+        .form-group
+          .alert.alert-danger(role='alert', id="msgDiv")
+        .form-group
+          label.col-sm-6.control-label(for="id") 
+           strong Agreement ID
+          .col-sm-9
+          input#id.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.id)
+        .form-group
+          label.col-sm-6.control-label(for="title") 
+           strong Agreement Title 
+          .col-sm-9
+           input#title.form-control(type="text"  autofocus="" readonly='' value=AgreementDetails.title)
+        .form-group
+          label.col-sm-6.control-label(for="position") 
+           strong Agreement position
+          .col-sm-9
+            input#position.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.position)
+        .form-group
+          label.col-sm-6.control-label(for="skill") 
+           strong Agreement skill
+          .col-sm-9
+           input#skill.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.skill)
+        .form-group
+          label.col-sm-6.control-label(for="salary") 
+           strong salary
+          .col-sm-9
+            input#salary.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.salary)
+        .form-group
+          label.col-sm-6.control-label(for="cycle") 
+           strong Cycle
+          .col-sm-9
+            input#cycle.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.cycle)
+        .form-group
+          label.col-sm-6.control-label(for="jobStartDate") 
+           strong jobStartDate
+          .col-sm-9
+            input#jobStartDate.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.jobStartDate)
+        .form-group
+          label.col-sm-6.control-label(for="jobEndDate") 
+           strong jobEndDate
+          .col-sm-9
+             input#jobEndDate.form-control(type="text"  autofocus="" readonly='' value=AgreementDetails.jobEndDate)
+        .form-group
+          label.col-sm-6.control-label(for="technologyLevel") 
+           strong technologyLevel
+          .col-sm-9
+            input#technologyLevel.form-control(type="text" autofocus="" readonly='' value=AgreementDetails.technologyLevel)
+        .form-group
+          label.col-sm-6.control-label(for="role") 
+           strong role
+          .col-sm-9
+            input#role.form-control(type="text"  autofocus="" readonly='' value=AgreementDetails.role)
+        .form-group
+          label.col-sm-6.control-label(for="status") 
+           strong status
+          .col-sm-9
+            input#status.form-control(type="text"  autofocus="" readonly='' value=AgreementDetails.status)
+        br
+        .form-group
+           .col-sm-9.col-sm-offset-3
+            button#acceptagreements.btn.btn-primary(type='button' ) Accept
+        br
+        .form-group
+           .col-sm-9.col-sm-offset-3
+           button#rejectagreements.btn.btn-primary(type='button' ) Reject

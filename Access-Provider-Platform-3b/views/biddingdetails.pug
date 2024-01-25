@@ -1,0 +1,68 @@
+extends layout
+
+block content
+   .container
+      h1.text-center.top-buffer Access Management Platform 
+      h2.text-center.top-buffer Bidding Details
+      form.form-horizontal(role="form", method="post")
+        .form-group
+          .alert.alert-danger(role='alert', id="msgDiv")
+        .form-group
+          label.col-sm-6.control-label(for="id") 
+           strong ID
+          .col-sm-9
+            input#id.form-control(type="text" autofocus="" readonly='' value=BiddingDetails.id)
+        .form-group
+          label.col-sm-6.control-label(for="title") 
+           strong Title 
+          .col-sm-9
+            input#title.form-control(type="text" autofocus="" readonly='' value=BiddingDetails.title)
+        .form-group
+          label.col-sm-6.control-label(for="position")
+           strong position
+          .col-sm-9
+            input#position.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.position)
+        .form-group
+          label.col-sm-6.control-label(for="skill") 
+           strong skill
+          .col-sm-9
+            input#skill.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.skill)
+        .form-group
+          label.col-sm-6.control-label(for="salary") 
+           strong salary
+          .col-sm-9
+            input#salary.form-control(type="text" placeholder="salary" autofocus="" )
+        .form-group
+          label.col-sm-6.control-label(for="cycle") 
+           strong cycle
+          .col-sm-9
+            input#cycle.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.cycle)
+        .form-group
+          label.col-sm-6.control-label(for="jobStartDate") 
+           strong jobStartDate
+          .col-sm-9
+            input#jobStartDate.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.jobStartDate)
+        .form-group
+          label.col-sm-6.control-label(for="jobEndDate") 
+           strong jobEndDate
+          .col-sm-9
+            input#jobEndDate.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.jobEndDate)
+        .form-group
+          label.col-sm-6.control-label(for="technologyLevel")   
+           strong technologyLevel
+          .col-sm-9
+            input#technologyLevel.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.technologyLevel)
+        .form-group
+          label.col-sm-6.control-label(for="role") 
+           strong role
+          .col-sm-9
+            input#role.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.role)
+        .form-group
+          label.col-sm-6.control-label(for="status") 
+           strong status
+          .col-sm-9
+            input#status.form-control(type="text"  autofocus="" readonly='' value=BiddingDetails.status)
+        br
+        .form-group
+           .col-sm-9.col-sm-offset-3
+            button#bid.btn.btn-primary(type='button') Bid
