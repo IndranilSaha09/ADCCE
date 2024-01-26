@@ -1,9 +1,10 @@
-# Access Platform for Providers (APP)- Group 3b
+#   Access Platform for Providers (APP)- Group 3b
 
 <p align="center">
-<strong>"Agile Development in Cloud Computing Environments (Project)"</strong>
+<strong>"Agile Development in Cloud Computing Environments"</strong>
 
-    
+    Team Members
+	<p align="center">
    Deblina Karmakar (1427965)
    <br>
    Indranil Saha (1427190)
@@ -33,16 +34,20 @@ Following the service evaluation, providers extend offers to employees, and a ne
 
 *   API Implementation 
 
-1. API from others group 
+1. API from others group
+ 
 Below are the inbound APIs from group 2b and group 4b as provided by the respective teams –
+
 Group 1   API - https://codexauth.onrender.com/api/register/
 Group 2b API - https://dg4gi3uw0m2xs.cloudfront.net/agreement
 Group 4b API - http://13.48.42.106:8000/request-details/
 
 2. Group 3b API 
+
 Below are the outbound APIs from group 3b to the other groups of the project -  
 
 Offers to Open Service Request -
+
 http://ec2-52-90-1-48.compute-1.amazonaws.com:4000/users/offers?provider=A
 http://ec2-52-90-1-48.compute-1.amazonaws.com:4000/users/offers?provider=B
 http://ec2-52-90-1-48.compute-1.amazonaws.com:4000/users/offers?provider=C
